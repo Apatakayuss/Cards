@@ -175,6 +175,36 @@ span{
     border-radius: 5px;
 }
 
+.card-7{
+    height: 275px;
+    width: 310px;
+    border-radius: 25px;
+    margin-bottom: 90px;
+    margin-left: 50px;
+    margin-top: 70px;
+    box-shadow: 5px 5px 2px gray;  
+    border: 1px solid gray;  
+    padding: 15px;
+}
+
+
+
+
+
+
+
+
+.card-8{
+    height: 330px;
+    width: 320px;
+    border-radius: 25px;
+    margin-bottom: 90px;
+    margin-left: 50px;
+    margin-top: 70px;
+    box-shadow: 5px 5px 2px gray;  
+    border: 1px solid gray; 
+   
+}
 
 
 
@@ -189,7 +219,7 @@ span{
     }
 }
 @media screen and (max-width: 400px){
-    .first-line{
+    .first-line, .second-line, .third-line{
         display: flex;
         flex-direction: column;
     }
